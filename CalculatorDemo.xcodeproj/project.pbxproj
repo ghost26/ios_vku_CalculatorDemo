@@ -54,14 +54,22 @@
 		8A152FE41D95644500706182 /* CalculatorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8A152FE51D95644500706182 /* AppDelegate.swift */,
+				8A152FF71D9587C500706182 /* Supporting Files */,
 				8A152FE71D95644500706182 /* ViewController.swift */,
 				8A152FE91D95644500706182 /* Main.storyboard */,
+			);
+			path = CalculatorDemo;
+			sourceTree = "<group>";
+		};
+		8A152FF71D9587C500706182 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A152FE51D95644500706182 /* AppDelegate.swift */,
 				8A152FEC1D95644500706182 /* Assets.xcassets */,
 				8A152FEE1D95644500706182 /* LaunchScreen.storyboard */,
 				8A152FF11D95644500706182 /* Info.plist */,
 			);
-			path = CalculatorDemo;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					8A152FE11D95644500706182 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 668Q4ZMG49;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 668Q4ZMG49;
 				INFOPLIST_FILE = CalculatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itmo.CalculatorDemo;
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 668Q4ZMG49;
 				INFOPLIST_FILE = CalculatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itmo.CalculatorDemo;
